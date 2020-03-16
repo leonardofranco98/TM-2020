@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="content">
+        <h3 class="title">
+            Link
+        </h3>
+        <p>
+            <a href="www.google.com" type="text\html" id="link" target="_blank">Google</a>
+        </p>
+        <p id="p1">
+            ID:
+        </p>
+        <p id="p2">
+            href:
+        </p>
+        <p id="p3">
+            target:
+        </p>
+        <p id="p4">
+            type:
+        </p>
+        <button id="b1" onclick="info()">
+            Valores dos atributos do link
+        </button>
+        <button id="b2" onclick="red()">
+            Cor dos títulos para vermelho
+        </button>
+        <h3 class="title">
+            Tabela
+        </h3>
+        <table class="table">
+            <tr>
+                <td id="t00" onclick="tabela(this.id)">0 0</td>
+                <td id="t01" onclick="tabela(this.id)">0 1</td>
+            </tr>
+            <tr>
+                <td id="t10" onclick="tabela(this.id)">1 0</td>
+                <td id="t11" onclick="tabela(this.id)">1 1</td>
+            </tr>
+            <tr>
+                <td id="t20" onclick="tabela(this.id)">2 0</td>
+                <td id="t21" onclick="tabela(this.id)">2 1</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
